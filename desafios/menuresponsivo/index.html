@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+            <h1>meu site</h1>
+
+            <span id="burguer" class="menu-icon" onclick="clickMenu()">menu</span>
+
+              
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">opcao 1</a></li>
+                    <li><a href="#">opcao 2</a></li>
+                    <li><a href="#">opcao 3</a></li>
+                    <li><a href="#">opcao 4</a></li>
+                    <li><a href="#">opcao 5</a></li>
+                </ul>
+            </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt quod, aliquid tenetur inventore exercitationem nobis, obcaecati veniam accusamus hic earum magni provident eligendi, assumenda voluptates quas aliquam consequuntur atque!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nesciunt recusandae consequatur illum! Amet praesentium sequi vero fugit. Fugiat rem incidunt exercitationem velit, fuga laborum ipsam voluptatum nulla libero nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aliquam unde modi nulla ea. Ea, iste magnam. Ducimus placeat, doloremque sed dolorum, sint aliquid, sit quas animi veniam cumque quo?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex dolores quisquam corrupti neque eaque molestias laborum quas ipsam ratione! Ea natus esse id minima, culpa reprehenderit molestias harum consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis pariatur quia qui necessitatibus consequuntur distinctio temporibus rerum inventore perspiciatis dolorum provident ex natus, veritatis asperiores perferendis iure repellendus aliquid molestias?</p>
+        </article>
+    </main>
+
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } 
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
